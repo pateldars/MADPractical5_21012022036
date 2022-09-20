@@ -9,7 +9,7 @@ class MyService : Service() {
 
     companion object{
         val DATA_KEY="Service"
-        val DATA_VALUE="Play/Pause"
+        const val DATA_VALUE="Play/Pause"
 
     }
 private lateinit var player:MediaPlayer
